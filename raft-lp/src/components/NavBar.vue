@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex justify-between content-center text-white nav-bd pb-6">
+  <nav class="flex justify-between content-center text-white nav-bd py-4 px-[2rem]">
     <!-- logo  -->
     <div>
       <img src="/src/assets/img/raft.png" alt="Raft" srcset="" />
