@@ -2,7 +2,7 @@
   <nav class="flex justify-between content-center text-white nav-bd py-4 px-[2rem]">
     <!-- logo  -->
     <div>
-      <img class="min-h-29px min-w-74px" src="/src/assets/img/raft.svg" alt="Raft" srcset="" />
+      <img class="max-h-[29px] max-w-[74px]" src="/src/assets/img/raft.svg" alt="Raft" srcset="" />
     </div>
 
     <div class="flex justify-between custom-text-gray">
