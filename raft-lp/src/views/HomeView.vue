@@ -90,9 +90,12 @@
         approach simplifies saving and investing, making it easier than ever.
       </p>
     </div>
+
+    <AppFooter class="width-90" />
   </div>
 </template>
 
 <script setup>
+import AppFooter from '@/components/AppFooter.vue'
 import NavBar from '@/components/NavBar.vue'
 </script>
