@@ -55,12 +55,43 @@
     </div>
 
     <!-- elevate section  -->
-    <div class="grid gap-y-[32px] text-center py-30 width-90">
-      <h2 class="text-8xl text-white">Elevate Your Financial Journey with RAFT</h2>
-      <p class="text-xl leading-28px text-[#989898]">
-        RAFT offers a world of financial possibilities. From investments to payments,<br />
-        we've got you covered. Join us and unlock your financial potential today.
-      </p>
+    <div class="grid py-30 width-90">
+      <div class="grid gap-y-[32px] text-center">
+        <h2 class="text-8xl text-white">Elevate Your Financial Journey with RAFT</h2>
+        <p class="text-xl leading-28px text-[#989898]">
+          RAFT offers a world of financial possibilities. From investments to payments,<br />
+          we've got you covered. Join us and unlock your financial potential today.
+        </p>
+      </div>
+
+      <div class="flex justify-center text-left gap-x-5">
+        <div class="grid gap-y-[84px] lg:min-w-[822px] grid-background">
+          <div class="flex justify-center">
+            <img src="/src/assets/img/seamless_payment.svg" alt="" />
+          </div>
+
+          <div class="grid gap-y-4">
+            <h3 class="text-white font-semibold text-4xl">Seamless Payment</h3>
+            <p class="custom-text-gray">
+              Enjoy secure, seamless transactions that make managing your money a breeze.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid gap-y-[84px] grid-background">
+          <div class="flex justify-center">
+            <img src="/src/assets/img/seamless_payment.svg" alt="" />
+          </div>
+
+          <div class="grid gap-y-4">
+            <h3 class="text-white font-semibold text-4xl">Smart Investing</h3>
+            <p class="custom-text-gray">
+              Grow your wealth confidently with our personalized investment solutions, tailored to
+              your financial goals.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- freedom section  -->
