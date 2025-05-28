@@ -371,6 +371,14 @@
       </div>
     </div>
 
+    <!-- faqs  -->
+    <!-- <div class="text-white width-90x">
+      <h2 class="text-8xl text-left">
+        Frequently asked <br />
+        questions
+      </h2>
+    </div> -->
+
     <AppFooter class="width-90" />
   </div>
 </template>
