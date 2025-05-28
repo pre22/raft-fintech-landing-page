@@ -59,7 +59,9 @@
 
     <div class="flex justify-between">
       <button>English (United Kingdom) <i class="fa-solid fa-chevron-down pl-[10px]"></i></button>
-      <p class="flex gap-x-2"><i class="fa-regular fa-copyright"></i>Raft Corp, LLC.</p>
+      <p class="flex gap-x-2 items-center">
+        <i class="fa-regular fa-copyright"></i>Raft Corp, LLC.
+      </p>
     </div>
   </footer>
 </template>
