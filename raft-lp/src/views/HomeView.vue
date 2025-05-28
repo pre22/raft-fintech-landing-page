@@ -64,7 +64,7 @@
           Elevate Your Financial <br />
           Journey with RAFT
         </h2>
-        <p class="text-xl leading-28px text-[#989898]">
+        <p class="text-xl leading-[28px] text-[#989898]">
           RAFT offers a world of financial possibilities. From investments to payments,<br />
           we've got you covered. Join us and unlock your financial potential today.
         </p>
@@ -140,7 +140,7 @@
           Your Financial Freedom,<br />
           Your Way
         </h2>
-        <p class="text-xl leading-28px text-[#989898]">
+        <p class="text-xl leading-[28px] text-[#989898]">
           We believe that managing your finances should be effortless and cost-effective. <br />
           That's why we offer you the freedom you deserve
         </p>
@@ -211,7 +211,7 @@
     <!-- smart investment  -->
     <div class="bg-[#48D64C] py-[132px]">
       <div class="width-90">
-        <h2 class="text-9xl text-[#070606] xl:text-left">
+        <h2 class="text-9xl text-[#070606] text-left">
           Smart investments,<br />
           secure payments,<br />
           and expert guidance, all in one place.
@@ -219,9 +219,42 @@
       </div>
     </div>
 
+    <!-- stats  -->
+    <div class="flex justify-between text-white text-center width-90">
+      <div class="flex flex-col gap-y-4">
+        <p class="font-semibold text-[80px] leading-none">50+</p>
+        <p class="uppercase font-medium custom-text-gray">cities</p>
+      </div>
+      <div class="flex flex-col gap-y-4">
+        <p class="font-semibold text-[80px] leading-none">50,000+</p>
+        <p class="uppercase font-medium custom-text-gray">transactions</p>
+      </div>
+      <div class="flex flex-col gap-y-4">
+        <p class="font-semibold text-[80px] leading-none">3M+</p>
+        <p class="uppercase font-medium custom-text-gray">users</p>
+      </div>
+      <div class="flex flex-col gap-y-4">
+        <p class="font-semibold text-[80px] leading-none">5</p>
+        <p class="uppercase font-medium custom-text-gray">user ratings</p>
+      </div>
+    </div>
+
+    <!-- img -->
+    <div class="flex justify-center py-[100px]">
+      <img
+        src="/src/assets/img/frame_150.svg"
+        alt="happy"
+        style="min-height: 848px; min-width: 1440px"
+        class="w-full"
+      />
+    </div>
+
     <!-- introducing  -->
-    <div class="grid text-center py-30 width-90">
+    <div class="grid text-center py-[120px] width-90">
       <div class="grid gap-y-[32px]">
+        <p class="font-semibold text-lg text-[#48D64C] text-center uppercase leading-1">
+          Introducing
+        </p>
         <h2 class="text-[76px] text-white">
           Introducing RAFT's Next-Gen <br />
           Cards
@@ -301,7 +334,7 @@
         Confidently Shape Your <br />
         Financial Future
       </h2>
-      <p class="text-xl leading-28px text-[#989898]">
+      <p class="text-xl leading-[28px] text-[#989898]">
         At RAFT, we empower you to confidently shape your financial future.Our modern <br />
         approach simplifies saving and investing, making it easier than ever.
       </p>
