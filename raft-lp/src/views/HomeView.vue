@@ -58,7 +58,7 @@
     </div>
 
     <!-- elevate section  -->
-    <div class="grid py-30 width-90">
+    <div class="grid py-30 width-90x">
       <div class="grid gap-y-[32px] pb-[108px] text-center">
         <h2 class="text-8xl text-white">
           Elevate Your Financial <br />
@@ -134,7 +134,7 @@
     </div>
 
     <!-- freedom section  -->
-    <div class="grid text-center py-30 width-90">
+    <div class="grid text-center py-30 width-90x">
       <div class="grid gap-y-[32px] pb-[124px]">
         <h2 class="text-[76px] text-white">
           Your Financial Freedom,<br />
@@ -156,7 +156,7 @@
         </div>
 
         <!-- content  -->
-        <div class="text-white text-left flex justify-center">
+        <div class="text-white text-left flex gap-3 justify-center">
           <div class="grid gap-y-3">
             <!-- first row -->
             <div class="flex items-center gap-x-2">
@@ -219,116 +219,8 @@
       </div>
     </div>
 
-    <!-- stats  -->
-    <div class="flex justify-between text-white text-center width-90">
-      <div class="flex flex-col gap-y-4">
-        <p class="font-semibold text-[80px] leading-none">50+</p>
-        <p class="uppercase font-medium custom-text-gray">cities</p>
-      </div>
-      <div class="flex flex-col gap-y-4">
-        <p class="font-semibold text-[80px] leading-none">50,000+</p>
-        <p class="uppercase font-medium custom-text-gray">transactions</p>
-      </div>
-      <div class="flex flex-col gap-y-4">
-        <p class="font-semibold text-[80px] leading-none">3M+</p>
-        <p class="uppercase font-medium custom-text-gray">users</p>
-      </div>
-      <div class="flex flex-col gap-y-4">
-        <p class="font-semibold text-[80px] leading-none">5</p>
-        <p class="uppercase font-medium custom-text-gray">user ratings</p>
-      </div>
-    </div>
-
-    <!-- img -->
-    <div class="flex justify-center py-[100px]">
-      <img
-        src="/src/assets/img/frame_150.svg"
-        alt="happy"
-        style="max-height: 848px; max-width: 1440px"
-      />
-    </div>
-
-    <!-- introducing  -->
-    <div class="grid text-center py-[120px] width-90">
-      <div class="grid gap-y-[32px]">
-        <p class="font-semibold text-lg text-[#48D64C] text-center uppercase leading-1">
-          Introducing
-        </p>
-        <h2 class="text-[76px] text-white">
-          Introducing RAFT's Next-Gen <br />
-          Cards
-        </h2>
-        <p class="text-xl leading-28px text-[#989898]">
-          Discover RAFT's latest innovation – our new cards. Elevate your banking <br />
-          experience with cutting-edge features, security, and unprecedented <br />
-          convenience.
-        </p>
-      </div>
-
-      <div class="flex flex-col gap-y-[80px]">
-        <div class="flex justify-center py-[124px]">
-          <img
-            src="/src/assets/img/Frame_122.svg"
-            alt="happy"
-            style="max-height: 615px; max-width: 1296px; border-radius: 12px"
-          />
-        </div>
-
-        <!-- content  -->
-        <div class="text-white text-left flex justify-center">
-          <div class="grid gap-y-3">
-            <!-- first row -->
-            <div class="flex items-center gap-x-2">
-              <!-- icon  -->
-              <i class="fa-solid fa-copy"></i>
-              <p>Contactless Technology</p>
-            </div>
-            <!-- second row  -->
-            <div>
-              <p class="text-base custom-text-gray leading-[24px]">
-                Our new cards come equipped with contactless technology, allowing you to make swift,
-                secure payments with a simple tap.
-              </p>
-            </div>
-          </div>
-
-          <div class="grid gap-y-3">
-            <!-- first row -->
-            <div class="flex items-center gap-x-2">
-              <!-- icon  -->
-              <i class="fa-solid fa-address-card"></i>
-              <p>Personalization</p>
-            </div>
-            <!-- second row  -->
-            <div>
-              <p class="text-base custom-text-gray leading-[24px]">
-                Customize your card to reflect your unique style. Choose from a range of designs
-                that suit your personality.
-              </p>
-            </div>
-          </div>
-
-          <div class="grid gap-y-3">
-            <!-- first row -->
-            <div class="flex items-center gap-x-2">
-              <!-- icon  -->
-              <i class="fa-solid fa-lock"></i>
-              <p>Enhanced Security</p>
-            </div>
-            <!-- second row  -->
-            <div>
-              <p class="text-base custom-text-gray leading-[24px]">
-                Your peace of mind is our priority. Our cards feature advanced security measures to
-                protect your transactions and data.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!-- confi section  -->
-    <div class="grid pt-[124px] width-90">
+    <div class="grid pt-[124px] pb-[100px] width-90x">
       <div class="grid gap-y-[24px] pb-[100px] text-left">
         <h2 class="text-7xl text-white">
           Confidently Shape Your <br />
@@ -366,6 +258,114 @@
 
           <div class="flex justify-center">
             <img src="/src/assets/img/wallet-minus.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- stats  -->
+    <div class="flex justify-between text-white text-center width-90">
+      <div class="flex flex-col gap-y-4">
+        <p class="font-semibold text-[80px] leading-none">50+</p>
+        <p class="uppercase font-medium custom-text-gray">cities</p>
+      </div>
+      <div class="flex flex-col gap-y-4">
+        <p class="font-semibold text-[80px] leading-none">50,000+</p>
+        <p class="uppercase font-medium custom-text-gray">transactions</p>
+      </div>
+      <div class="flex flex-col gap-y-4">
+        <p class="font-semibold text-[80px] leading-none">3M+</p>
+        <p class="uppercase font-medium custom-text-gray">users</p>
+      </div>
+      <div class="flex flex-col gap-y-4">
+        <p class="font-semibold text-[80px] leading-none">5</p>
+        <p class="uppercase font-medium custom-text-gray">user ratings</p>
+      </div>
+    </div>
+
+    <!-- img -->
+    <div class="flex justify-center py-[100px]">
+      <img
+        src="/src/assets/img/frame_150.svg"
+        alt="happy"
+        style="max-height: 848px; max-width: 1440px"
+      />
+    </div>
+
+    <!-- introducing  -->
+    <div class="grid text-center py-[120px] width-90x">
+      <div class="grid gap-y-[32px]">
+        <p class="font-semibold text-lg text-[#48D64C] text-center uppercase leading-1">
+          Introducing
+        </p>
+        <h2 class="text-[76px] text-white">
+          Introducing RAFT's Next-Gen <br />
+          Cards
+        </h2>
+        <p class="text-xl leading-28px text-[#989898]">
+          Discover RAFT's latest innovation – our new cards. Elevate your banking <br />
+          experience with cutting-edge features, security, and unprecedented <br />
+          convenience.
+        </p>
+      </div>
+
+      <div class="flex flex-col gap-y-[80px]">
+        <div class="flex justify-center py-[124px]">
+          <img
+            src="/src/assets/img/Frame_122.svg"
+            alt="happy"
+            style="max-height: 615px; max-width: 1296px; border-radius: 12px"
+          />
+        </div>
+
+        <!-- content  -->
+        <div class="text-white text-left flex gap-3 justify-center">
+          <div class="grid gap-y-3">
+            <!-- first row -->
+            <div class="flex items-center gap-x-2">
+              <!-- icon  -->
+              <i class="fa-solid fa-copy"></i>
+              <p>Contactless Technology</p>
+            </div>
+            <!-- second row  -->
+            <div>
+              <p class="text-base custom-text-gray leading-[24px]">
+                Our new cards come equipped with contactless technology, <br />
+                allowing you to make swift, secure payments with a simple tap.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid gap-y-3">
+            <!-- first row -->
+            <div class="flex items-center gap-x-2">
+              <!-- icon  -->
+              <i class="fa-solid fa-address-card"></i>
+              <p>Personalization</p>
+            </div>
+            <!-- second row  -->
+            <div>
+              <p class="text-base custom-text-gray leading-[24px]">
+                Customize your card to reflect your unique style. Choose from <br />
+                a range of designs that suit your personality.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid gap-y-3">
+            <!-- first row -->
+            <div class="flex items-center gap-x-2">
+              <!-- icon  -->
+              <i class="fa-solid fa-lock"></i>
+              <p>Enhanced Security</p>
+            </div>
+            <!-- second row  -->
+            <div>
+              <p class="text-base custom-text-gray leading-[24px]">
+                Your peace of mind is our priority. Our cards feature advanced <br />
+                security measures to protect your transactions and data.
+              </p>
+            </div>
           </div>
         </div>
       </div>
