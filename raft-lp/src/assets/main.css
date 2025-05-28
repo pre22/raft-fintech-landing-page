@@ -12,6 +12,11 @@
   padding: 2rem;
 }
 
+.width-90x {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
 .custom-bg-theme-color {
   background-color: #070606;
 }
