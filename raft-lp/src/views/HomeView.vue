@@ -244,8 +244,7 @@
       <img
         src="/src/assets/img/frame_150.svg"
         alt="happy"
-        style="min-height: 848px; min-width: 1440px"
-        class="w-full"
+        style="max-height: 848px; max-width: 1440px"
       />
     </div>
 
@@ -329,15 +328,47 @@
     </div>
 
     <!-- confi section  -->
-    <div class="grid gap-y-[24px] text-left pt-[124px] width-90">
-      <h2 class="text-7xl text-white">
-        Confidently Shape Your <br />
-        Financial Future
-      </h2>
-      <p class="text-xl leading-[28px] text-[#989898]">
-        At RAFT, we empower you to confidently shape your financial future.Our modern <br />
-        approach simplifies saving and investing, making it easier than ever.
-      </p>
+    <div class="grid pt-[124px] width-90">
+      <div class="grid gap-y-[24px] pb-[100px] text-left">
+        <h2 class="text-7xl text-white">
+          Confidently Shape Your <br />
+          Financial Future
+        </h2>
+        <p class="text-xl leading-[28px] text-[#989898]">
+          At RAFT, we empower you to confidently shape your financial future.Our modern <br />
+          approach simplifies saving and investing, making it easier than ever.
+        </p>
+      </div>
+
+      <div class="flex justify-around text-left">
+        <div class="grid gap-y-[84px] p-[40px] grid-background bg-[#131313] rounded-xl">
+          <div class="grid gap-y-4">
+            <h3 class="text-white font-semibold text-4xl">Spend better</h3>
+            <p class="custom-text-gray">
+              Set and achieve financial goals with ease, automate your <br />
+              savings, and watch your money grow without the stress.
+            </p>
+          </div>
+
+          <div class="flex justify-center">
+            <img src="/src/assets/img/money-send.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="grid gap-y-[84px] p-[40px] grid-background bg-[#131313] rounded-xl">
+          <div class="grid gap-y-4">
+            <h3 class="text-white font-semibold text-4xl">Invest better</h3>
+            <p class="custom-text-gray">
+              Set and achieve financial goals with ease, automate your <br />
+              savings, and watch your money grow without the stress.
+            </p>
+          </div>
+
+          <div class="flex justify-center">
+            <img src="/src/assets/img/wallet-minus.svg" alt="" />
+          </div>
+        </div>
+      </div>
     </div>
 
     <AppFooter class="width-90" />
